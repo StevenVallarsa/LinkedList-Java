@@ -9,5 +9,19 @@ package com.sv.linkedlist;
  * purpose: 
  */
 public class Node {
+    
+    private String data;
+    private Node next;
+    
+    public Node(String data) {
+        this.data = data;
+        this.next = null;
+    }
+    
+    public void setNextNode(Node node) {
+        this.next = node;
+    }
+    
+    
 
 }
